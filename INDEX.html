@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet"  href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Pagina responsiva</title>
+</head>
+
+<body>
+    <header>
+        <h1> "Evolución de la Informática"</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <ul>
+<li><a  href="INDEX.html">Inicio</a></li>
+<li><a   href="¿Como funciona.html">¿como evoluciono?</a> </li>
+<li><a  href="ejemplos.html">Ejemplos</a> </li>
+<section>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Evolución </p>
+            <p class="msg"></p>
+            <button class="cta">Más información</button>
+        </section>
+
+        <section class="right">
+            <img src="descarga.jpg"alt="Langing image">
+        </section>
+        <section class="right">
+            <img  src="Luis-Vilanova-hacia-la-empresa-digital-auditora-informatica-plan-estrategia-digital (1).png"alt="Langing image">
+        </section>
+        
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+
+</body>
+
+</html>
